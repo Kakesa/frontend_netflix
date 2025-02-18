@@ -19,7 +19,7 @@ header::before {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Adjust the opacity value as needed */
+    background-color: rgba(0, 0, 0, 0.6); /* Adjust the opacity value as needed */
     z-index: -1;
 }
 
@@ -31,7 +31,7 @@ nav {
 }
 
 .logo_netflix img {
-    width: 70%;    
+    width: 60%;    
 }
 
 .logo .logo_image {
@@ -52,7 +52,7 @@ nav ul li a {
     font-weight: bold;
     padding: 10px 20px;
     border-radius: 5px;
-    font-size: 0.8rem;
+    font-size: 1.2rem;
 }
 
 .header-content {
@@ -66,23 +66,21 @@ nav ul li a {
     transform: translate(-50%, -50%);
 }
 
-.content-subtitle h1 {
-    font-size: 3rem;
-    margin-bottom: 20px;
+
+.content-subtitle{
     font-family: 'Times New Roman', Times, serif;
+}
+.content-subtitle h1 {
+    font-size: 3rem;    
 }
 
 .content-subtitle h4 {
     font-size: 1.5rem;
-    font-weight: bold;
-    margin-bottom: 30px;
-    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;    
 }
 
 .content-details p {
     font-size: 0.9rem;
-    margin-bottom: 20px;
-    font-family: 'Times New Roman', Times, serif;
 }
 
 .input-container {
@@ -96,14 +94,14 @@ nav ul li a {
     width: 100%;
     border-radius: 5px;
     outline: none;
-    opacity: 0.8;
+    opacity: 0.9;
     box-sizing: border-box;
     background-color: #2E3543;
 }
 
 .input-container button {    
     background-color: #e50914;
-    color: #fff;
+    color: var(--main-color-white);
     width: 50%;
     font-weight: bold;
 }
