@@ -1,0 +1,21 @@
+:root{
+    
+    --main-color: #000000;
+    --main-color-danger: #f40612;
+    --main-color-yellow: #FFD603;
+    --main-color-white: #FFFFFF;
+    --main-color-red: #FF7466;
+    --main-color-green: #90D4C5;
+    --main-color-inderline: #FBF1C0;
+    --main-color-under: #FADBD7;
+    --main-color-tea: #008080;
+    --main-color-logo: #2A7163;
+    
+    --main-color-blue: #000980;
+    --main-color-gray: gray;
+    --main-color-orange: orange;
+    --main-color-success: #2ba968;
+    --main-color-footer: #212529;
+}
+
+
