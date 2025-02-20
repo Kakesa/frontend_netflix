@@ -1,0 +1,99 @@
+.contenair-tranding-now {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-movies-tranding {
+    overflow: hidden;
+    width: 85%; 
+}
+
+.slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    min-width: calc(100% / 2.8); /* Display 5 and a half elements at a time */
+    box-sizing: border-box;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.5rem;
+    height: 300px; /* Set a fixed height for each slide */
+    background-size: cover;
+}
+
+.movie-details1 {
+    background-image: url('/assets/images/movies/movie-1.jpg');
+}
+
+.movie-details2 {
+    background-image: url('/assets/images/movies/movie-2.jpg');
+}
+
+.movie-details3 {
+    background-image: url('/assets/images/movies/movie-5.jpg');
+}
+
+.movie-details4 {
+    background-image: url('/assets/images/movies/movie-4.jpg');
+}
+
+.movie-details5 {
+    background-image: url('/assets/images/movies/movie-3.jpg');
+}
+
+.movie-details6 {
+    background-image: url('/assets/images/movies/movie-6.jpg');
+}
+
+.movie-details7 {
+    background-image: url('/assets/images/movies/movie-7.jpg');
+}
+
+.movie-details8 {
+    background-image: url('/assets/images/movies/movie-8.jpg');
+}
+
+.movie-details9 {
+    background-image: url('/assets/images/movies/movie-9.jpg');
+}
+
+.movie-details10 {
+    background-image: url('/assets/images/movies/movie-10.jpg');
+}
+
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #1A1A1A;
+    color: var(--main-color-white);
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1;
+    height: 50%;
+    border-radius: 9px;
+}
+
+.prev:hover, .next:hover {
+    background-color: #333;
+}
+
+.prev {
+    left: 30px; /* Position the button outside the slider */
+}
+
+.next {
+    right: 30px; /* Position the button outside the slider */
+}
+
+.movies-title {
+    color: var(--main-color-white);
+    margin: 30px;
+}

@@ -1,0 +1,39 @@
+.contenair-reasons-join {
+    justify-content: space-between;
+    padding: 20px;
+    color: #fff;
+}
+
+.reason-content {
+    flex: 1 1 calc(25% - 20px); /* Adjust the width of each reason-content */
+    background-color: #171a2b;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Ensure space between details and image */
+    position: relative; /* Ensure the image can be positioned absolutely */
+}
+
+.reason-details h4 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.reason-details p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.reason-image {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 100%;
+}
+
+.reason-image img {
+    width: 50%;
+    height: 50%;
+}

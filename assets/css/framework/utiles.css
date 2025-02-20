@@ -13,7 +13,7 @@
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: var(--main-color-white);
+  background-color: var(--main-color);
   font-size: 14px;
   overflow-x: hidden;
   visibility: visible;
