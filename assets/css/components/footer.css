@@ -54,3 +54,32 @@ footer {
     color: var(--main-color-white);
     pointer-events: none; 
 }
+
+.content-detail p{
+    color: #B2B2B2;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.input-email input {
+    padding: 15px 20px; 
+    font-size: 1rem;
+    border: none;
+    width: 30%;
+    border-radius: 5px;
+    outline: none;
+    opacity: 0.9;
+    box-sizing: border-box;
+    background-color: #2E3543;
+}
+
+.input-email button {    
+    background-color: #e50914;
+    color: var(--main-color-white);
+    width: 15%;
+    font-weight: bold;
+}
+
+.input-email button:hover {
+    background-color: #f40612;
+}
