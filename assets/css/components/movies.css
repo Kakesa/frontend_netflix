@@ -21,10 +21,18 @@
     min-width: calc(100% / 2.8); /* Display 5 and a half elements at a time */
     box-sizing: border-box;
     padding: 10px;
-    text-align: center;
     font-size: 1.5rem;
-    height: 300px; /* Set a fixed height for each slide */
-    background-size: cover;
+    border-radius: 5px;
+    height: 300px;
+    background-size: cover;    
+    transition: transform 0.3s ease, font-size 0.3s ease; /* Add transition for smooth effect */
+}
+
+.slide:hover {
+    transform: scale(1.1);
+    font-weight: bold;
+    font-size: 1.6rem;
+    cursor: pointer;    
 }
 
 .movie-details1 {
