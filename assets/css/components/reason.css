@@ -1,19 +1,20 @@
 .contenair-reasons-join {
     justify-content: space-between;
     padding: 20px;
-    color: #fff;
+    color: var(--main-color-white);
 }
 
 .reason-content {
-    flex: 1 1 calc(25% - 20px); /* Adjust the width of each reason-content */
+    flex: 1 1 calc(25% - 20px); 
     background-color: #171a2b;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     display: flex;
     flex-direction: column;
-    justify-content: space-between; /* Ensure space between details and image */
-    position: relative; /* Ensure the image can be positioned absolutely */
+    justify-content: space-between;
+    position: relative; 
+    background-image: linear-gradient(to bottom right, #171a2b, #3c1442);
 }
 
 .reason-details h4 {

@@ -4,7 +4,7 @@
 }
 
 .faq-section h3 {
-    font-size: 2rem;
+    font-size: 2.8rem;
     margin-bottom: 20px;
 }
 
@@ -30,7 +30,7 @@
 
 .plus-icon {
     filter: brightness(0) invert(1); /* Inverse la couleur de l'icône */
-    font-size: 1.5rem;
+    font-size: 2.5rem;
 }
 
 
