@@ -4,10 +4,9 @@ header {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    color: var(--main-color-white);  
-    padding: 50px; 
+    color: var(--main-color-white);
     width: 100%;
-    height: 100vh;
+    height: 95vh;
     overflow: hidden;
     box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.8); 
 }
@@ -37,13 +36,12 @@ header::before {
 }
 
 nav {
-    padding: 20px;
+    padding: 50px;
 }
 
 .logo_netflix img {
-    width: 20%;    
+    width: 15%;    
 }
-
 
 
 nav ul {
@@ -58,8 +56,7 @@ nav ul li a {
     font-weight: bold;
     padding: 10px 20px;
     border-radius: 5px;
-    font-size: 1.2rem;
-    margin-right: 10px;
+    margin-bottom: 20px;
 }
 
 .header-content {

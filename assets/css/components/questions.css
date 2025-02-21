@@ -1,6 +1,6 @@
 .faq-section {
     padding: 20px;
-    color: #fff;
+    color: var(--main-color-white);
 }
 
 .faq-section h3 {
@@ -15,8 +15,8 @@
 .faq-question {
     width: 100%;
     background-color: #333;
-    color: #fff;
-    padding: 15px;
+    color: var(--main-color-white);
+    padding: 30px;
     text-align: left;
     border: none;
     outline: none;
@@ -25,9 +25,14 @@
     border-radius: 5px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
     transition: background-color 0.3s;
 }
+
+.plus-icon {
+    filter: brightness(0) invert(1); /* Inverse la couleur de l'icône */
+    font-size: 1.5rem;
+}
+
 
 .faq-question:hover {
     background-color: #444;
@@ -35,10 +40,15 @@
 
 .faq-answer {
     display: none;
-    color: #fff;
+    color: var(--main-color-white);
     padding: 15px;
     border-radius: 5px;
     margin-top: 5px;
+}
+
+.footer-section p{
+    color: #B2B2B2;
+    font-weight: bold;
 }
 
 .faq-answer p {
