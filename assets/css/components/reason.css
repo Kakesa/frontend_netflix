@@ -14,7 +14,7 @@
     flex-direction: column;
     justify-content: space-between;
     position: relative; 
-    background-image: linear-gradient(to bottom right, #171a2b, #3c1442);
+    background-image: linear-gradient(to bottom right, #171a2b, #3c1442 100%);
 }
 
 .reason-details h4 {

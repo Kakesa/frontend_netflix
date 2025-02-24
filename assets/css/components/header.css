@@ -8,7 +8,7 @@ header {
     width: 100%;
     height: 95vh;
     overflow: hidden;
-    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.8); 
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.7); 
 }
 
 header::before {
@@ -101,6 +101,7 @@ nav ul li a {
     opacity: 0.9;
     box-sizing: border-box;
     background-color: #2E3543;
+    color: var(--main-color-white);
 }
 
 .input-container button {    
