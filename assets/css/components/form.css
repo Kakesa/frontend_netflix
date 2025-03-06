@@ -1,0 +1,75 @@
+.singin-body {
+    background-image: url(/assets/images/movies/background.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;  
+    overflow: hidden;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.4);
+}
+
+.login-form {
+    background-color: rgba(0, 0, 0, 0.75);
+    padding: 60px 68px 40px;
+    border-radius: 4px;
+    max-width: 450px;
+    width: 100%;
+}
+
+.login-form h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #45516873;
+    color: var(--main-color-white);
+}
+
+.login-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #e50914;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.login-form button:hover {
+    background-color: #f40612;
+}
+
+.alternative, .forgot-password, .new-to-netflix {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.remember-me {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.remember-me input {
+    margin-right: 5px;
+}
+
+a {
+    color: #e50914;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

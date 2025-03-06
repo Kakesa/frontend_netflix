@@ -84,3 +84,11 @@ footer {
 .input-email button:hover {
     background-color: #f40612;
 }
+
+@media screen and (max-width: 768px) {
+    .footer-container{
+        flex-direction: row;
+        flex-wrap: wrap;
+
+    }
+}

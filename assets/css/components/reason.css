@@ -38,3 +38,26 @@
     width: 50%;
     height: 50%;
 }
+
+@media screen and (max-width: 768px) {
+    .contenair-reasons-join {
+        flex-direction: column;
+    }
+
+    .reason-image img {
+        width: 20%;
+        height: 20%;
+    }
+
+    .reason-content {
+        margin-bottom: 20px;
+    }
+
+    .reason-details h4 {
+        font-size: 1.6rem;
+    }
+    .reason-details p{
+        font-size: 1.3rem;
+    }
+    
+}
