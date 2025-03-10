@@ -7,6 +7,7 @@ footer {
 }
 .footer-section ul li a {
     color: #B2B2B2;
+    text-decoration: underline;
 }
 
 .footer-section ul li{
@@ -69,8 +70,7 @@ footer {
     border-radius: 5px;
     outline: none;
     opacity: 0.9;
-    box-sizing: border-box;
-    background-color: #2E3543;
+    background-color: #2e354379;
     color: var(--main-color-white);
 }
 
@@ -79,6 +79,7 @@ footer {
     color: var(--main-color-white);
     width: 15%;
     font-weight: bold;
+    border: 1px solid #e50914;
 }
 
 .input-email button:hover {

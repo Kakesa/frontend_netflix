@@ -2,13 +2,9 @@
     background-image: url(/assets/images/movies/background.jpg);
     background-size: cover;
     background-position: center;
-    color: white;
-    font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;  
-    overflow: hidden;
+    color: var(--main-color-white);
+    height: 100vh; 
+    flex-direction: column; 
     box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.4);
 }
 
@@ -32,7 +28,15 @@
     border: none;
     border-radius: 5px;
     background-color: #45516873;
+    color: var(--main-color-var(--main-color-white));
+}
+
+.singin-code button {
+    background-color: #413038 !important;
     color: var(--main-color-white);
+    font-size: 0.8rem;
+    text-transform: none !important;
+    font-weight: bold;
 }
 
 .login-form button {
@@ -41,8 +45,8 @@
     background-color: #e50914;
     border: none;
     border-radius: 5px;
-    color: white;
-    font-size: 16px;
+    color: var(--main-color-white);
+    font-size: 0.8rem;
     cursor: pointer;
 }
 
@@ -50,25 +54,21 @@
     background-color: #f40612;
 }
 
-.alternative, .forgot-password, .new-to-netflix {
+.forgot-password{
     text-align: center;
+    text-decoration: underline;
     margin: 10px 0;
 }
 
 .remember-me {
     display: flex;
-    align-items: center;
-    margin-bottom: 10px;
 }
 
 .remember-me input {
-    margin-right: 5px;
+    margin: 0 0 15px;
+    
 }
 
-a {
-    color: #e50914;
-    text-decoration: none;
-}
 
 a:hover {
     text-decoration: underline;
